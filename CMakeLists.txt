@@ -26,3 +26,7 @@ add_executable(5-vecsum
         common/index.cu)
 set_property(TARGET 5-vecsum
         PROPERTY CUDA_SEPARABLE_COMPILATION ON)
+
+add_executable(5-dotproduct
+        5-dotproduct.cu
+        common/book.h)
